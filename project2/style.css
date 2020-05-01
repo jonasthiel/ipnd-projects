@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 2000px;
+	background-color: #FFFFFF;
+	/*margin: 0;*/
+	width: auto;
+}
+
+p {
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 15px;
+}
+
+em {
+	font-weight: bold;
+}
+
+.headline {
+	padding-top: 25px;
+	padding-bottom: 50px;
+	background-color: #52748C;
+}
+
+.title {
+	text-align: center;
+	color: white;
+	font-family: Cabrit;
+	font-size: 38px;
+}
+
+.subtitle {
+	text-align: center;
+	color: #9AD4EB;
+	font-family: Cabrit sans-serif;
+	font-size: 26px;
+}
+
+.emptyrow {
+	background-color: #4A687E;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.content_title {
+	text-align: center;
+	color: #053E55;
+	font-family: Helvetica;
+	font-size: 32px;
+	padding-top: 32px;
+}
+
+.note {
+	text-align: center;
+	color: black;
+	line-height: 27px;
+	margin: 10px;
+}
+
+.TOC {
+	text-align: center;
+	color: #053E55;
+	font-family: Helvetica;
+	font-size: 16px;
+	line-height: 27px;
+}
+
+.lesson {
+	background-color: #4A687E;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+	color: white;
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+.concept {
+	background-color: white;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+
+.concept-title {
+	text-align: center;
+	color: #053E55;
+	font-family: Helvetica;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.concept-description {
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 15px;
+}
+
+.picture {
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 10px;
+}

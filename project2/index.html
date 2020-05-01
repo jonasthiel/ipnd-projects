@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset="UTF-8">
+  <title>Jonas' Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="headline">
+		<h1 class="title">Jonas' Notes</h1>
+		<h2 class="subtitle">Ongoing</h2>
+	</div>
+	<div class="emptyrow"></div>
+	<div class="note">
+		<br>
+		<em>Please note: Certain parts or phrases are copied from the course materials, however, they were transferred into HTML.</em>
+	</div>
+	<div class="TOC">
+		<h2 class="content_title">Table of Contents</h2>
+		<a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a><br>
+		<a href="#lesson-1-1">The World Wide Web</a><br>
+		<a href="#lesson-1-2">Components of the Web</a><br>
+		<a href="#lesson-1-3">Basic HTML Elements</a><br>
+		<a href="#lesson-1-4">HTML Attributes</a><br>
+		<a href="#lesson-1-5">More HTML Elements</a><br>
+		<a href="#lesson-2">Lesson 2: Creating a Structured Document with HTML</a><br>
+		<a href="#lesson-2-1">Developer Tools</a><br>
+		<a href="#lesson-2-2">HTML's "tree-like" Structure</a><br>
+		<a href="#lesson-2-3">Indentations and Boxes</a><br>
+		<a href="#lesson-2-4">Text Editors</a><br>
+		<a href="#lesson-3">Lesson 3: Adding CSS Style to HTML Structure</a><br>
+		<a href="#lesson-3-1">CSS</a><br>
+		<a href="#lesson-3-2">Code, Test, Refine</a><br>
+		<a href="#lesson-3-3">Verifying HTML and CSS</a><br>
+	</div>
+	<h2 class="content_title">Important Concepts</h2>
+	<div class="lesson">
+		<h2 id="lesson-1">Lesson 1: The Basics of the Web and HTML</h2>
+		<div class="concept" id="lesson-1-1">
+			<h3 class="concept-title">
+				The World Wide Web
+			</h3>
+			<div>
+				<div class="concept-description">
+					<p>
+						The web is a bunch of computers that communicate with each other. When a person goes to a web page like www.google.com, their computer sends a <em>HTTP (Hypertext Transfer Protocol) Request</em> to a <em>server</em>.<br><br>
+						The server finds the appropriate HTML (Hypertext Markup Language) document and sends it back to the user's computer where a <em>web browser</em> (for example Chrome, Safari, Firefox, Internet Explorer or Brave) interprets the page and displays it on the user's screen. For this reason, HTML is the main type of document on the web.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="concept" id="lesson-1-2">
+			<h3 class="concept-title">
+				Components of the Web
+			</h3>
+			<div class="concept-description">
+				<p>
+					<em>HTTP</em>: the main protocol of the web<br><br>
+					<em>Servers</em>: computers that host the files that make up the web<br><br>
+					<em>Internet</em>: the world's largest computer network<br><br>
+					<em>Browser</em>: a program that runs on your computer to display the files found on the web<br>
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="lesson-1-3">
+			<h3 class="concept-title">
+				Basic HTML Elements
+			</h3>
+			<div class="concept-description">
+				<p>
+					<em>HTML elements</em> are what we use to tell a web browser how to display content on a web page.<br><br>
+					Most HTML elements consist of an <em>opening</em> and a <em>closing</em> tag with some <em>content</em> between them.<br><br>
+					<code>&lt;b&gt;text&lt;/b&gt;</code> Makes the 'text' content <b>bold</b><br><br>
+					<code>&lt;em&gt;text&lt;/em&gt;</code> Makes the 'text' content <em>italic</em>
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="lesson-1-4">
+			<h3 class="concept-title">
+				HTML Attributes
+			</h3>
+			<div class="concept-description">
+				<p>
+					Some elements accept additional values called <em>attributes</em> in their opening tags.<br><br> Attributes provide additional information to the browser.<br><br>
+					<code>&lt;a href="url">link&lt;/a&gt;</code> Creates a hyperlink to the <em>href</em> attribute value <em>url</em> and names it <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">link</a><br><br>
+					<code>&lt;img src="url" alt="text"&gt;</code> Displays the image hosted at the <em>scr</em> attribute value "url". If the image cannot be displayed, then the <em>alt</em> attribute value "text" is shown.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="lesson">
+		<h2 id="lesson-2">Lesson 2: Creating a Structured Document with HTML</h2>
+		<div class="concept" id="lesson-2-1">
+			<h3 class="concept-title">
+				Developer Tools
+			</h3>
+			<div class="concept-description">
+				<p>
+					Every modern web browser includes a powerful suite of developer tools. These tools do a range of things, from inspecting currently-loaded HTML, CSS and JavaScript to showing which assets the page has requested and how long they took to load.<br><br>
+					For exmaple, to open the developer tools on Chrome (on Mac), use the keyboard shortcut Ctrl Option I. Alternatively, you can use the Chrome menu in the browser window, select the option "More Tools", and then select "Developer Tools".
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="lesson-2-2">
+			<h3 class="concept-title">
+				HTML-CSS-DOM
+			</h3>
+			<div class="concept-description">
+				<p>
+					<em>HTML</em> (Hypertext Markup Language) the standard markup language used to create web pages.<br><br>
+					<em>CSS</em> (Cascading Style Sheets) style sheet language used for describing the look and formatting of a document written in a markup language.<br><br>
+					<em>DOM</em> (Document Object Model) a cross-platform and language-independent convention for representing and interacting with objects in HTML (and other markup languages). The nodes of every document are organized in a tree structure, called the DOM tree.
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="lesson-2-3">
+			<h3 class="concept-title">
+				Boxes
+			</h3>
+			<div class="concept-description">
+				<p>
+					Everything on a webpage is a box. Breaking up sections of the page with <em>div</em> tags allows us to neatly boxify the page.<br><br>
+					All boxes are made up of 4 components: the <em>margin</em>, <em>border</em>, <em>padding</em>, and <em>content</em>.
+				</p>
+					<div class="picture">
+						<img src="https://mdn.mozillademos.org/files/13647/box-model-standard-small.png" alt="Box properties"><br>
+						<p>
+							Picture source: <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model">https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model</a>
+						</p>
+					</div>
+			</div>
+		</div>
+		<div class="concept" id="lesson-2-4">
+			<h3 class="concept-title">
+				Text Editor
+			</h3>
+			<div class="concept-description">
+				<p>
+					I am using <a href="https://www.sublimetext.com/">Sublime Text 3</a> for coding.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="lesson">
+		<h2 id="lesson-3">Lesson 3: Adding CSS Style to HTML Structure</h2>
+		<div class="concept" id="lesson-3-1">
+			<h3 class="concept-title">
+				CSS
+			</h3>
+			<div class="concept-description">
+				<p>
+					Cascading Style Sheets follow the <em>Most Specific Rule Applied</em>: you go down selectors until you reach the most relevant one.<br><br>
+					A <em>selector</em> referencing either an HTML <code>tag</code>, <code>.class</code>, or <code>#id</code>. Then define <em>properties</em> and <em>values</em> to the selector.<br><br>
+					Reference the CSS stylesheet in the <code>&lt;head></code> of the HTML document: <code>&lt;link rel="stylesheet" href="style.css"></code>
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="lesson-3-2">
+			<h3 class="concept-title">
+				Code, Test, Refine
+			</h3>
+			<div class="concept-description">
+				<p>
+					1. Look for natural boxes.<br>
+					2. Look for repeated styles and semantic elements<br>
+					3. Write HTML<br>
+					4. Apply styles (from BIGGEST to smallest)<br>
+					5. Fix things<br>
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="lesson-3-3">
+			<h3 class="concept-title">
+				Verifying HTML and CSS
+			</h3>
+			<div class="concept-description">
+				<p>
+					To verify HTML: <a href="http://validator.w3.org/#validate_by_input">http://validator.w3.org/#validate_by_input</a><br><br>
+					To verify CSS: <a href="http://jigsaw.w3.org/css-validator/#validate_by_input">http://jigsaw.w3.org/css-validator/#validate_by_input</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
